@@ -13,11 +13,15 @@ namespace CMP1903M_A01_2223
         public Pack()
         {
             //Initialise the card pack here
+            //values of card pack
         }
 
         public static bool shuffleCardPack(int typeOfShuffle)
         {
             //Shuffles the pack based on the type of shuffle
+            Console.WriteLine("Please enter a shuffle to use (Fisher, Riffle, No): ");
+            typeOfShuffle = Console.ReadLine();
+            //Shuffle Input ^
 
         }
         public static Card deal()
