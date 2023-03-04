@@ -14,6 +14,7 @@ namespace CMP1903M_A01_2223
         {
             //Initialise the card pack here
             //values of card pack
+            //*Make Private*
         }
 
         public static bool shuffleCardPack(int typeOfShuffle)
