@@ -30,7 +30,7 @@ namespace CMP1903M_A01_2223
             set
             {
                 Random num_rnd = new Random();
-                card_num = (num_rnd.Next(13);
+                card_num = (num_rnd.Next(13));
             }
 
 
@@ -42,7 +42,7 @@ namespace CMP1903M_A01_2223
             set 
             { 
                 Random suit_rnd = new Random();
-                card_suit = (suit_rnd.Next(4);
+                card_suit = (suit_rnd.Next(4));
             }
 
         }
